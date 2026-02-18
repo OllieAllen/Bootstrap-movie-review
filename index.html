@@ -4,7 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bootstrap Movie Review Website</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"> 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .card-img-top {
+            height: 600px;
+            object-fit: cover;
+        }
+    </style>
 </head>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script> 
 <body>
@@ -12,6 +18,7 @@
         <div class="container">
             <h1 class="mb-1">Ollie's Movie Review Website</h1>
             <p class="mb-0">Get amazing movie reviews from someone called Ollie!</p>
+        </div>
     </header>
 
     <nav class="border-light border-bottom text-center">
@@ -33,22 +40,65 @@
         <section class="row g-3">
             <div class="col-12 col-md-6 col-lg-4">
                 <div class="card h-100">
-                    <img src="https://via.placeholder.com/400x200" class="card-img-top" alt="Movie Poster">
+                    <img src="/Bootstrap-movie-review/images/despicable me.webp" class="card-img-top img-fluid" alt="Despicable Me Movie Poster">
                     <div class="card-body">
-                        <h3 class="h5 card-title mb-1">Movie Title</h3>
-                        <p class="text-muted mb-2">Genre + Year</p>
+                        <h3 class="h5 card-title mb-1">Despicable Me</h3>
+                        <p class="text-muted mb-2">Adventure - 2010</p>
                         <p class="card-text">
-                            Short Movie Review
+                            A movie about a supervillain named Gru who adopts three orphan and has to deal with his new responsibilities while trying to pull off a grand heist. The movie is filled with humor, heartwarming moments, and the lovable Minions who steal the show. It's a fun and entertaining film for all ages.
                         </p>
                     </div>
                     <div class="card-footer bg-white border-0 pt-0 pb-3 px-3">
-                        <span class="badge text-bg-danger">?/10</span>
+                        <span class="badge text-bg-danger">8.0/10</span>
+                        <a href="#" class="btn btn-sm btn-primary ms-2">Read Full Review</a>
+                    </div>
+                </div>
+            </div>
+
+                        <div class="col-12 col-md-6 col-lg-4">
+                <div class="card h-100">
+                    <img src="/Bootstrap-movie-review/images/f1 film.jpg" class="card-img-top img-fluid" alt="F1: The Movie Movie Poster">
+                    <div class="card-body">
+                        <h3 class="h5 card-title mb-1">F1 Film</h3>
+                        <p class="text-muted mb-2">Action - 2025</p>
+                        <p class="card-text">
+                            A movie about Formula 1 racing, following the lives of drivers, teams, and the intense competition on and off the track. The film captures the adrenaline, drama, and passion of the sport, showcasing high-speed action and the personal stories of those involved in the world of Formula 1.
+                        </p>
+                    </div>
+                    <div class="card-footer bg-white border-0 pt-0 pb-3 px-3">
+                        <span class="badge text-bg-danger">9.5/10</span>
+                        <a href="#" class="btn btn-sm btn-primary ms-2">Read Full Review</a>
+                    </div>
+                </div>
+            </div>
+
+                        <div class="col-12 col-md-6 col-lg-4">
+                <div class="card h-100">
+                    <img src="/Bootstrap-movie-review/images/tron ares.webp" class="card-img-top img-fluid" alt="Tron: Ares Movie Poster">
+                    <div class="card-body">
+                        <h3 class="h5 card-title mb-1">Tron: Ares</h3>
+                        <p class="text-muted mb-2">Action - 2025</p>
+                        <p class="card-text">
+                            A movie about a young programmer who is transported into a digital world where he must fight to save it from an evil AI. The film combines stunning visuals with a compelling story of courage and self-discovery.
+                        </p>
+                    </div>
+                    <div class="card-footer bg-white border-0 pt-0 pb-3 px-3">
+                        <span class="badge text-bg-danger">8.5/10</span>
                         <a href="#" class="btn btn-sm btn-primary ms-2">Read Full Review</a>
                     </div>
                 </div>
             </div>
         </section>
 
+
     </main>
+
+     
+
+    <footer class="border-top"> 
+        <div class="container py-3 text-muted"> 
+            <small>Ollie's Movie Review</small> 
+        </div> 
+    </footer> 
 </body>
 </html>
